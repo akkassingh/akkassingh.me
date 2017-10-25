@@ -145,7 +145,7 @@ a:after {
 			background: #44bbaa;
 		}
 #section-topbar i {
-	font-size: 25px;
+	font-size: 25px;    display: block;
 }
 /*---------------------------------------------------
 	SECTION WRAPS
@@ -161,7 +161,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+	position:relative;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -174,15 +174,17 @@ a:after {
 }
 
 #headerwrap h1 {
-	font-size: 80px;
-	color: white;
+	    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 7px #000;
+    font-weight: 500;
 }
 
 #headerwrap h3 {
 	font-size: 20px;
-	color: white;
+	color: white;    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.87);
 }
-
+.nav > li > a:focus {background:#989696}
 /* Intnro Wrap */
 
 #intro {
@@ -282,3 +284,8 @@ a:after {
 sm {
 	font-size: 12px;
 }
+.profile-img{    position: absolute;
+    left: 45%;
+    bottom: -48px;
+    width: 200px;}
+	.profile-img img{width:100%;border-radius: 50%;}

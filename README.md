@@ -1,2 +1,0 @@
-# akkassingh.me
-my website
